@@ -1,8 +1,14 @@
 # RMK 
 
-RMK is a feature-rich and easy-to-use keyboard firmware.
+The [Ferris Sweep](https://github.com/davidphilipbarr/Sweep) already has the Rust mascot on the PCB,
+so its only fitting to pair it with [RMK](https://github.com/HaoboGu/rmk),
+a Rust keyboard firmware!
 
-## Use the template
+## Flash to your Ferris
+
+Note: This repo is specifically for a wired ferris sweep using a pair of [Elite-Pi](https://docs.keeb.io/elite-pi-guide) MCUs.
+It should be easy enough to swap this for other MCUs, but you may need to mess with the matrix definitions to set the pin mapping,
+change the chipset settings, and add a bluetooth section (if using nice!nanos).
 
 1. Build the firmware
 
