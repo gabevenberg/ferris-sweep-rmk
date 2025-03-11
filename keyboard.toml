@@ -15,10 +15,53 @@ cols = 10
 layers = 8
 keymap = [
     [
-        ["?", "?", "?", "?", "?", "?", "?", "?", "?", "?", ],
-        ["?", "?", "?", "?", "?", "?", "?", "?", "?", "?", ],
-        ["?", "?", "?", "?", "?", "?", "?", "?", "?", "?", ],
-        ["__", "__", "__", "?", "?", "?", "?", "__", "__", "--", ],
+        ["Q", "W", "E", "R", "T", "Y", "U", "I", "O", "P", ],
+        ["MT(A, LShift)", "LT(5, S)", "LT(1, D)", "LT(3, F)", "G", "H", "LT(4, J)", "LT(2, K)", "LT(6, L)", "MT(Semicolon, LShift)", ],
+        ["MT(LGui, Z)", "MT(LCtrl, X)", "MT(LAlt, C)", "V", "B", "N", "M", "MT(LAlt, Comma)", "MT(LCtrl, Period)", "MT(LGui, Slash)", ],
+        ["_", "_", "_", "Enter", "Space", "Backspace", "Tab", "_", "_", "_", ],
+    ],
+    [
+        ["_", "_", "_", "Mouse3", "_", "_", "Mouse1", "MouseWheelUp", "Mouse2", "Mouse3", ],
+        ["_", "Mouse2", "_", "Mouse1", "_", "_", "MouseLeft", "MouseDown", "MouseUp", "MouseRight", ],
+        ["_", "_", "_", "_", "_", "_", "MouseWheelLeft", "MouseWheelDown", "MouseWheelRight", "_", ],
+        ["_", "_", "_", "_", "_", "_", "_", "_", "_", "_", ],
+    ],
+    [
+        ["WM(Kc1, LShift)", "Quote", "WM(Backslash, LShift)", "WM(Minus, LShift)", "WM(Slash, LShift)", "_", "WM(Equals, LShift)", "_", "_", "_", ],
+        ["WM(Kc4, LShift)", "WM(Quote, LShift)", "Slash", "WM(Grave, LShift)", "WM(Kc3, LShift)", "_", "WM(Kc7, LShift)", "_", "WM(Kc8, LShift)", "WM(Kc6, LShift)", ],
+        ["WM(Kc2, LShift)", "Grave", "Backslash", "Minus", "WM(Kc5, LShift)", "_", "Equals", "_", "_", "_", ],
+        ["_", "_", "_", "_", "_", "_", "_", "_", "_", "_", ],
+    ],
+    [
+        ["_", "_", "_", "_", "_", "_", "_", "PageUp", "_", "_", ],
+        ["_", "_", "_", "_", "_", "_", "Right", "Down", "Up", "Left", ],
+        ["_", "_", "_", "_", "_", "_", "Home", "PageDown", "End", "_", ],
+        ["_", "_", "_", "_", "Escape", "Delete", "_", "_", "_", "_", ],
+    ],
+    [
+        ["_", "_", "WM(Comma, LShift)", "WM(Period, LShift)", "_", "_", "_", "_", "_", "_", ],
+        ["WM(RightBracket, LShift)", "WM(LeftBracket, LShift)", "WM(Kc9, LShift)", "WM(Kc0, LShift)", "_", "_", "_", "_", "_", "_", ],
+        ["_", "_", "RightBracket", "LeftBracket", "_", "_", "_", "_", "_", "_", ],
+        ["_", "_", "_", "_", "_", "_", "_", "_", "_", "_", ],
+    ],
+    [
+        ["_", "_", "_", "Slash", "WM(Kc8, LShift)", "WM(Kc9, LShift)", "Kc7", "Kc8", "Kc9", "WM(Kc0, LShift)", ],
+        ["_", "_", "Equals", "Minus", "WM(Equals, LShift)", "Kc0", "Kc4", "Kc5", "Kc6", "Period", ],
+        ["_", "_", "_", "WM(Kc8, LShift)", "WM(Kc5, LShift)", "WM(Comma, LShift)", "Kc1", "Kc2", "Kc3", "WM(Period, LShift)", ],
+        ["_", "_", "_", "_", "_", "Enter", "_", "_", "_", "_", ],
+    ],
+    [
+        ["_", "F7", "F8", "F9", "F10", "_", "_", "_", "_", "_", ],
+        ["_", "F4", "F5", "F6", "F11", "_", "_", "_", "_", "_", ],
+        ["_", "F1", "F2", "F3", "F12", "_", "_", "_", "_", "_", ],
+        ["_", "_", "_", "_", "_", "_", "_", "_", "_", "_", ],
+    ],
+    # extra just for use by VIAL if I want to have another layer without reflashing.
+    [
+        ["_", "_", "_", "_", "_", "_", "_", "_", "_", "_", ],
+        ["_", "_", "_", "_", "_", "_", "_", "_", "_", "_", ],
+        ["_", "_", "_", "_", "_", "_", "_", "_", "_", "_", ],
+        ["_", "_", "_", "_", "_", "_", "_", "_", "_", "_", ],
     ],
 ]
 

@@ -1,11 +1,11 @@
 [package]
-name = "rmk"
+name = "rmk_sweep_firmware"
 version = "0.2.0"
-authors = ["Haobo Gu <haobogu@outlook.com>"]
-description = "Keyboard firmware written in Rust"
-homepage = "https://github.com/haobogu/rmk"
-repository = "https://github.com/haobogu/rmk"
-readme = "../../README.md"
+authors = ["Gabe Venberg"]
+description = "Keyboard firmware written in Rust for the Ferris Sweep"
+homepage = "https://github.com/gabevenberg/ferris-sweep-rmk"
+repository = "https://github.com/gabevenberg/ferris-sweep-rmk"
+readme = "./README.md"
 edition = "2021"
 license = "MIT OR Apache-2.0"
 
