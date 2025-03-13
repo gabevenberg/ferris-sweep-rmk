@@ -11,7 +11,7 @@ license = "MIT OR Apache-2.0"
 
 [dependencies]
 # rmk = { version = "0.5", features = ["split", "rp2040_pio"] }
-rmk = { git = "https://github.com/HaoboGu/rmk.git", branch = "feat/device_api", features = [
+rmk = { git = "https://github.com/HaoboGu/rmk.git", branch = "main", features = [
     "split",
     "rp2040_pio",
 ] }
