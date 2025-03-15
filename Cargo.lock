@@ -1507,7 +1507,7 @@ dependencies = [
 [[package]]
 name = "rmk"
 version = "0.5.2"
-source = "git+https://github.com/HaoboGu/rmk.git?branch=main#83e4416e014921df822303f00d53dba774d48fcd"
+source = "git+https://github.com/HaoboGu/rmk.git?branch=main#7477d42c655db3d4e7d62798115ace9e79aaaa18"
 dependencies = [
  "bitfield-struct",
  "byteorder",
@@ -1537,7 +1537,6 @@ dependencies = [
  "num_enum",
  "paste",
  "pio",
- "pio-proc",
  "postcard",
  "rmk-macro",
  "rp-pac",
@@ -1551,7 +1550,7 @@ dependencies = [
 [[package]]
 name = "rmk-macro"
 version = "0.4.2"
-source = "git+https://github.com/HaoboGu/rmk.git?branch=main#83e4416e014921df822303f00d53dba774d48fcd"
+source = "git+https://github.com/HaoboGu/rmk.git?branch=main#7477d42c655db3d4e7d62798115ace9e79aaaa18"
 dependencies = [
  "cargo_toml",
  "darling 0.20.10",
