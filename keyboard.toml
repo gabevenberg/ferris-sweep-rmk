@@ -20,49 +20,49 @@ keymap = [
         ["MT(Z, LGui)", "MT(X, LCtrl)", "MT(C, LAlt)", "V", "B", "N", "M", "MT(Comma, LAlt)", "MT(Dot, LCtrl)", "MT(Slash, LGui)", ],
         ["_", "_", "_", "Enter", "Space", "Backspace", "Tab", "_", "_", "_", ],
     ],
-    # [
-    #     ["_", "_", "_", "MouseBtn3", "_", "_", "MouseBtn1", "MouseWheelUp", "MouseBtn2", "MouseBtn3", ],
-    #     ["_", "MouseBtn2", "_", "MouseBtn1", "_", "_", "MouseLeft", "MouseDown", "MouseUp", "MouseRight", ],
-    #     ["_", "_", "_", "_", "_", "_", "MouseWheelLeft", "MouseWheelDown", "MouseWheelRight", "_", ],
-    #     ["_", "_", "_", "_", "_", "_", "_", "_", "_", "_", ],
-    # ],
-    # [
-    #     ["WM(Kc1, LShift)", "Quote", "WM(Backslash, LShift)", "WM(Minus, LShift)", "WM(Slash, LShift)", "_", "WM(Equal, LShift)", "_", "_", "_", ],
-    #     ["WM(Kc4, LShift)", "WM(Quote, LShift)", "Slash", "WM(Grave, LShift)", "WM(Kc3, LShift)", "_", "WM(Kc7, LShift)", "_", "WM(Kc8, LShift)", "WM(Kc6, LShift)", ],
-    #     ["WM(Kc2, LShift)", "Grave", "Backslash", "Minus", "WM(Kc5, LShift)", "_", "Equal", "_", "_", "_", ],
-    #     ["_", "_", "_", "_", "_", "_", "_", "_", "_", "_", ],
-    # ],
-    # [
-    #     ["_", "_", "_", "_", "_", "_", "_", "PageUp", "_", "_", ],
-    #     ["_", "_", "_", "_", "_", "_", "Right", "Down", "UP", "Left", ],
-    #     ["_", "_", "_", "_", "_", "_", "Home", "PageDown", "End", "_", ],
-    #     ["_", "_", "_", "_", "Escape", "Delete", "_", "_", "_", "_", ],
-    # ],
-    # [
-    #     ["_", "_", "WM(Comma, LShift)", "WM(Dot, LShift)", "_", "_", "_", "_", "_", "_", ],
-    #     ["WM(RightBracket, LShift)", "WM(LeftBracket, LShift)", "WM(Kc9, LShift)", "WM(Kc0, LShift)", "_", "_", "_", "_", "_", "_", ],
-    #     ["_", "_", "RightBracket", "LeftBracket", "_", "_", "_", "_", "_", "_", ],
-    #     ["_", "_", "_", "_", "_", "_", "_", "_", "_", "_", ],
-    # ],
-    # [
-    #     ["_", "_", "_", "Slash", "WM(Kc8, LShift)", "WM(Kc9, LShift)", "Kc7", "Kc8", "Kc9", "WM(Kc0, LShift)", ],
-    #     ["_", "_", "Equal", "Minus", "WM(Equal, LShift)", "Kc0", "Kc4", "Kc5", "Kc6", "Dot", ],
-    #     ["_", "_", "_", "WM(Kc8, LShift)", "WM(Kc5, LShift)", "WM(Comma, LShift)", "Kc1", "Kc2", "Kc3", "WM(Dot, LShift)", ],
-    #     ["_", "_", "_", "_", "_", "Enter", "_", "_", "_", "_", ],
-    # ],
-    # [
-    #     ["_", "F7", "F8", "F9", "F10", "_", "_", "_", "_", "_", ],
-    #     ["_", "F4", "F5", "F6", "F11", "_", "_", "_", "_", "_", ],
-    #     ["_", "F1", "F2", "F3", "F12", "_", "_", "_", "_", "_", ],
-    #     ["_", "_", "_", "_", "_", "_", "_", "_", "_", "_", ],
-    # ],
-    # # extra just for use by VIAL if I want to have another layer without reflashing.
-    # [
-    #     ["_", "_", "_", "_", "_", "_", "_", "_", "_", "_", ],
-    #     ["_", "_", "_", "_", "_", "_", "_", "_", "_", "_", ],
-    #     ["_", "_", "_", "_", "_", "_", "_", "_", "_", "_", ],
-    #     ["_", "_", "_", "_", "_", "_", "_", "_", "_", "_", ],
-    # ],
+    [
+        ["_", "_", "_", "MouseBtn3", "_", "_", "MouseBtn1", "MouseWheelUp", "MouseBtn2", "MouseBtn3", ],
+        ["_", "MouseBtn2", "_", "MouseBtn1", "_", "_", "MouseLeft", "MouseDown", "MouseUp", "MouseRight", ],
+        ["_", "_", "_", "_", "_", "_", "MouseWheelLeft", "MouseWheelDown", "MouseWheelRight", "_", ],
+        ["_", "_", "_", "_", "_", "_", "_", "_", "_", "_", ],
+    ],
+    [
+        ["WM(Kc1, LShift)", "Quote", "WM(Backslash, LShift)", "WM(Minus, LShift)", "WM(Slash, LShift)", "_", "WM(Equal, LShift)", "_", "_", "_", ],
+        ["WM(Kc4, LShift)", "WM(Quote, LShift)", "Slash", "WM(Grave, LShift)", "WM(Kc3, LShift)", "_", "WM(Kc7, LShift)", "_", "WM(Kc8, LShift)", "WM(Kc6, LShift)", ],
+        ["WM(Kc2, LShift)", "Grave", "Backslash", "Minus", "WM(Kc5, LShift)", "_", "Equal", "_", "_", "_", ],
+        ["_", "_", "_", "_", "_", "_", "_", "_", "_", "_", ],
+    ],
+    [
+        ["_", "_", "_", "_", "_", "_", "_", "PageUp", "_", "_", ],
+        ["_", "_", "_", "_", "_", "_", "Right", "Down", "UP", "Left", ],
+        ["_", "_", "_", "_", "_", "_", "Home", "PageDown", "End", "_", ],
+        ["_", "_", "_", "_", "Escape", "Delete", "_", "_", "_", "_", ],
+    ],
+    [
+        ["_", "_", "WM(Comma, LShift)", "WM(Dot, LShift)", "_", "_", "_", "_", "_", "_", ],
+        ["WM(RightBracket, LShift)", "WM(LeftBracket, LShift)", "WM(Kc9, LShift)", "WM(Kc0, LShift)", "_", "_", "_", "_", "_", "_", ],
+        ["_", "_", "RightBracket", "LeftBracket", "_", "_", "_", "_", "_", "_", ],
+        ["_", "_", "_", "_", "_", "_", "_", "_", "_", "_", ],
+    ],
+    [
+        ["_", "_", "_", "Slash", "WM(Kc8, LShift)", "WM(Kc9, LShift)", "Kc7", "Kc8", "Kc9", "WM(Kc0, LShift)", ],
+        ["_", "_", "Equal", "Minus", "WM(Equal, LShift)", "Kc0", "Kc4", "Kc5", "Kc6", "Dot", ],
+        ["_", "_", "_", "WM(Kc8, LShift)", "WM(Kc5, LShift)", "WM(Comma, LShift)", "Kc1", "Kc2", "Kc3", "WM(Dot, LShift)", ],
+        ["_", "_", "_", "_", "_", "Enter", "_", "_", "_", "_", ],
+    ],
+    [
+        ["_", "F7", "F8", "F9", "F10", "_", "_", "_", "_", "_", ],
+        ["_", "F4", "F5", "F6", "F11", "_", "_", "_", "_", "_", ],
+        ["_", "F1", "F2", "F3", "F12", "_", "_", "_", "_", "_", ],
+        ["_", "_", "_", "_", "_", "_", "_", "_", "_", "_", ],
+    ],
+    # extra just for use by VIAL if I want to have another layer without reflashing.
+    [
+        ["_", "_", "_", "_", "_", "_", "_", "_", "_", "_", ],
+        ["_", "_", "_", "_", "_", "_", "_", "_", "_", "_", ],
+        ["_", "_", "_", "_", "_", "_", "_", "_", "_", "_", ],
+        ["_", "_", "_", "_", "_", "_", "_", "_", "_", "_", ],
+    ],
 ]
 
 [storage]
