@@ -1507,7 +1507,6 @@ dependencies = [
 [[package]]
 name = "rmk"
 version = "0.5.2"
-source = "git+https://github.com/HaoboGu/rmk.git?branch=main#7477d42c655db3d4e7d62798115ace9e79aaaa18"
 dependencies = [
  "bitfield-struct",
  "byteorder",
@@ -1550,7 +1549,6 @@ dependencies = [
 [[package]]
 name = "rmk-macro"
 version = "0.4.2"
-source = "git+https://github.com/HaoboGu/rmk.git?branch=main#7477d42c655db3d4e7d62798115ace9e79aaaa18"
 dependencies = [
  "cargo_toml",
  "darling 0.20.10",
