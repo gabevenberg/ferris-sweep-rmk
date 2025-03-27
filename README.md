@@ -19,7 +19,7 @@ cargo build --release
 
 You can use `elf2uf2-rs` to flash your rp2040 firmware via USB.
 
-1. Install `elf2uf2-rs`: `cargo install elf2uf2-rs`
+1. Install `elf2uf2-rs`: `cargo install elf2uf2-rs, flip-link`
 2. Connect your rp2040 board holding the BOOTSEL key, ensure that rp's USB drive appears
 3. Flash
   ```shell
