@@ -12,7 +12,7 @@ chip = "rp2040"
 [layout]
 rows = 4
 cols = 10
-layers = 8
+layers = 7
 keymap = [
     [
         ["Q", "W", "E", "R", "T", "Y", "U", "I", "O", "P", ],
@@ -56,19 +56,15 @@ keymap = [
         ["_", "F1", "F2", "F3", "F12", "_", "_", "_", "_", "_", ],
         ["_", "_", "_", "_", "_", "_", "_", "_", "_", "_", ],
     ],
-    # extra just for use by VIAL if I want to have another layer without reflashing.
-    [
-        ["_", "_", "_", "_", "_", "_", "_", "_", "_", "_", ],
-        ["_", "_", "_", "_", "_", "_", "_", "_", "_", "_", ],
-        ["_", "_", "_", "_", "_", "_", "_", "_", "_", "_", ],
-        ["_", "_", "_", "_", "_", "_", "_", "_", "_", "_", ],
-    ],
 ]
 
 [storage]
 
 [behavior]
 tap_hold = { enable_hrm = true, prior_idle_time = "120ms", hold_timeout = "250ms", post_wait_time = "50ms"}
+
+[rmk]
+debounce_time=50
 
 [split]
 connection = "serial"
