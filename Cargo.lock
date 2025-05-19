@@ -1727,6 +1727,8 @@ dependencies = [
  "embedded-hal 1.0.0",
  "embedded-hal-async",
  "embedded-io-async",
+ "embedded-storage",
+ "embedded-storage-async",
  "fixed",
  "futures",
  "heapless 0.8.0",
