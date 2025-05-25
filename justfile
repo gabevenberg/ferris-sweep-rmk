@@ -1,9 +1,9 @@
 default:
     just --list
 
-flash target side:
+flash target file:
     mkdir -p mnt
-    sudo mount -o uid=`whoami` /dev/{{target}} mnt
-    cp ./rmk-{{side}}.uf2 mnt
+    sudo mount -o uid=`whoami` {{target}} mnt
+    cp {{file}} mnt
     sync
     sudo umount mnt

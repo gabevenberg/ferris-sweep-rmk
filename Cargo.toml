@@ -10,14 +10,6 @@ edition = "2021"
 license = "MIT OR Apache-2.0"
 
 [dependencies]
-# rmk = { version = "0.5", features = ["split", "rp2040_pio"] }
-rmk = { git = "https://github.com/HaoboGu/rmk.git", branch = "main", features = [
-# rmk = { git = "https://github.com/gabevenberg/rmk.git", branch = "main", features = [
-# rmk = { path = "../rmk/rmk", features = [
-    "split",
-    "rp2040_pio",
-    "rp2040_bl",
-] }
 embassy-time = { version = "0.4", features = ["defmt"] }
 embassy-rp = { version = "0.4", features = [
     "rp2040",
@@ -38,6 +30,20 @@ defmt = "0.3"
 defmt-rtt = "0.4"
 panic-probe = { version = "0.3", features = ["print-defmt"] }
 static_cell = "2"
+[dependencies.rmk]
+# version="0.6.1"
+# git = "https://github.com/gabevenberg/rmk.git"
+git = "https://github.com/HaoboGu/rmk.git"
+branch="main"
+# path = "../rmk/rmk"
+default-features=false
+features = [
+    "split",
+    "rp2040_pio",
+    "rp2040_bl",
+    "col2row",
+    "defmt",
+]
 
 # [features]
 # avoid having to use --allow-multiple-definition linker flag

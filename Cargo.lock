@@ -1704,7 +1704,7 @@ dependencies = [
 [[package]]
 name = "rmk"
 version = "0.6.1"
-source = "git+https://github.com/HaoboGu/rmk.git?branch=main#3d68f036a4cdc3da5c2ec37aa890a336474f74f6"
+source = "git+https://github.com/HaoboGu/rmk.git?branch=main#d2f7139ba9b1878251694ab0fffea057ff29da06"
 dependencies = [
  "bitfield-struct",
  "bt-hci",
@@ -1727,8 +1727,6 @@ dependencies = [
  "embedded-hal 1.0.0",
  "embedded-hal-async",
  "embedded-io-async",
- "embedded-storage",
- "embedded-storage-async",
  "fixed",
  "futures",
  "heapless 0.8.0",
@@ -1752,7 +1750,7 @@ dependencies = [
 [[package]]
 name = "rmk-config"
 version = "0.3.0"
-source = "git+https://github.com/HaoboGu/rmk.git?branch=main#3d68f036a4cdc3da5c2ec37aa890a336474f74f6"
+source = "git+https://github.com/HaoboGu/rmk.git?branch=main#d2f7139ba9b1878251694ab0fffea057ff29da06"
 dependencies = [
  "cargo_toml",
  "serde",
@@ -1764,7 +1762,7 @@ dependencies = [
 [[package]]
 name = "rmk-macro"
 version = "0.5.1"
-source = "git+https://github.com/HaoboGu/rmk.git?branch=main#3d68f036a4cdc3da5c2ec37aa890a336474f74f6"
+source = "git+https://github.com/HaoboGu/rmk.git?branch=main#d2f7139ba9b1878251694ab0fffea057ff29da06"
 dependencies = [
  "cargo_toml",
  "darling",
